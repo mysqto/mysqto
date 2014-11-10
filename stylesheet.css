@@ -11,7 +11,8 @@ div.main-view {
     max-width: 700px;
     width: auto;
     padding: 0, auto;
-    display: inline-block;
+    display: block;
+    position:relative;
 }
 
 h1 {
