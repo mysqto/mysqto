@@ -2,18 +2,21 @@ body
 {
     /* font-family: "lucida sans unicode", "lucida grande"; */
     font-weight: 400;
+    margin: 0px;
     background-color: #FFF;
 }
 
-div.main-view {
-    margin-top: 90px;
+section.main-view {
+    margin-top: 130px;
     /*max-width: 700px;*/
     /*padding: 0, auto;*/
+    margin: 0px;
+    padding: 0px;
     position: relative;
     display: block;
 }
 
-h1,h2,h3,h4,h5,h6,p,ol,ul,table,blockquote, div p
+h1,h2,h3,h4,h5,h6,p,ol,ul,table,blockquote, section p
 {
     margin-left: auto;
     margin-right:auto;
