@@ -43,7 +43,11 @@ h3 {
 
 p {
     /* font-family: "Tempus Sans ITC"; */
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4D4D4D;
+    font-weight: 400;
 }
 
 ul {
