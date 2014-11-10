@@ -7,10 +7,7 @@ body
 }
 
 section.main-view {
-    margin-top: 130px;
-    /*max-width: 700px;*/
-    /*padding: 0, auto;*/
-    margin: 0px;
+    margin-top: 90px;
     padding: 0px;
     position: relative;
     display: block;
