@@ -6,19 +6,15 @@ body
     background-color: #FFF;
 }
 
-section.main-view {
+div.main-view {
+    margin-left: auto ;
+    margin-right: auto ;
     margin-top: 90px;
-    padding: 0px;
-    position: relative;
+    max-width: 700px;
+    width: auto;
+    padding: 0, auto;
     display: block;
-}
-
-h1,h2,h3,h4,h5,h6,p,ol,ul,table,blockquote, section p
-{
-    font-family: "proxima-nova", "Helvetica", "Avenir", "Arial", sans-serif;    
-    margin-left: auto;
-    margin-right:auto;
-    max-width:700px;
+    position:relative;
 }
 
 h1 {
@@ -28,26 +24,27 @@ h1 {
 }
 
 h2 {
-    margin-top: 18px;
-    margin-bottom: 18px;    
     color: #3873B3;
     font-size: 14pt;
+    margin: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     border-bottom: 1px solid #C3D9FF
 }
 
 h3 {
     font-size: 12pt;
     color: #2461AA;
+    margin: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #4D4D4D;
-    font-weight: 400;
-}
-
-ul {
-    padding-left: 40px;
-    max-width: 660px;
+    /* font-family: "Tempus Sans ITC"; */
+    margin-left: auto ;
+    margin-right: auto ;
+    word-wrap: break-word;
+    max-width: 100%;
+    width: 100%;
 }
