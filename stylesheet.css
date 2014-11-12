@@ -1,18 +1,23 @@
 body
 {
-    /* font-family: "lucida sans unicode", "lucida grande"; */
     font-weight: 400;
     margin: 0px;
     background-color: #FFF;
 }
 
 div.main-view {
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 45px;
-    max-width: 640px;
+    max-width: 656px;
     width: auto;
     padding: 0, auto;
+    display: block;
+    position:relative;
+}
+
+div.container {
+    margin: 0px 8px;
     display: block;
     position:relative;
 }
@@ -23,8 +28,6 @@ h1 {
     margin: 0px;
     margin-top: 1em;
     margin-bottom: 1em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     border-bottom: 1px solid #C3D9FF
 }
 
@@ -32,8 +35,6 @@ p {
     /* font-family: "Tempus Sans ITC"; */
     margin-left: auto ;
     margin-right: auto ;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     word-wrap: break-word;
     max-width: 100%;
     width: 100%;
