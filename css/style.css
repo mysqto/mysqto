@@ -60,6 +60,7 @@ div.copyleft {
 }
 
 footer#foot {
+    margin-top: 2.2em;
     position: relative;
     height: 2.5em;
 }
@@ -77,6 +78,7 @@ footer#foot {
     margin-left: auto;
     margin-right: auto;
     word-wrap: break-word;
+    font-size: 0.8em;
 }
 
 h1 {
