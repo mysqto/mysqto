@@ -48,6 +48,37 @@ div.container {
     position:relative;
 }
 
+div.copyleft {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 656px;
+    width: auto;
+    padding: 0, auto;
+    display: block;
+    position:relative;
+}
+
+footer#foot {
+    position: relative;
+    height: 2.5em;
+}
+
+#foot .copyleft img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -1.2em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#foot .copyleft p {
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+
 h1 {
     color: #3873B3;
     font-size: 14pt;
@@ -58,7 +89,6 @@ h1 {
 }
 
 p, figure {
-    /* font-family: "Tempus Sans ITC"; */
     margin-left: auto ;
     margin-right: auto ;
     word-wrap: break-word;
