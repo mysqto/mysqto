@@ -40,7 +40,7 @@ div.main-view {
     position:relative;
 }
 
-div.container div.copyleft{
+div.container, div.copyleft{
     margin: 0px 8px;
     display: block;
     position:relative;
