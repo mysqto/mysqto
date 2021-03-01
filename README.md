@@ -1,11 +1,15 @@
-This is my personal page hosted on github pages
-===============================================
-This project is the minimalist homepage of mine, with all the digital footprints.
+<img align="right" src="https://raw.githubusercontent.com/mysqto/mysqto/master/github-metrics.svg">
 
-I write this page with minimal HTML and css(no jekyll or other static generator, just html and css) with the full user experience on both mobile and desktop devices.
+### Hi there, @mysqto Here
 
-Sorry for my poor front-end skills(I'm totally new to HTML and CSS), if you have any comments or opinions, Please tell me.
+[🔗 Personal Website](https://mysq.to)
 
-[Click](https://mysq.to) to vist the page.
+[🔗 About.me](https://about.me/mysqto)
 
-[Free to contact and feedback](mailto:my@mysq.to).
+[🔗 Twitter](https://twitter.com/mysqto)
+
+[🔗 Telegram](https://t.me/mysqto)
+
+[🔗 Instagram](https://www.instagram.com/mysqto/)
+
+[🔗 500px](https://500px.com/p/mysqto)
