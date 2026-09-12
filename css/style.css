@@ -84,3 +84,8 @@ p, figure {
     max-width: 100%;
     width: 100%;
 }
+
+span.stack {
+    color: #888;
+    font-size: 0.8em;
+}

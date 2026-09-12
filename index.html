@@ -11,10 +11,6 @@
         <link rel="stylesheet" href="css/style.css" />
         <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 
-        <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
     </head>
     <body>
         <div class="main-view">
@@ -27,16 +23,12 @@
                         <a href="https://github.com/mysqto">Github</a>
                     </li>
                     <li> 
-                        <i class="fa-li fab fa-bitbucket"></i>
-                        <a href="https://bitbucket.org/mysqto">Bitbucket</a>
-                    </li>                    
-                    <li> 
                         <i class="fa-li fab fa-linkedin"></i> 
                         <a href="https://www.linkedin.com/in/mysqto">Linkedin</a>
                     </li>
                     <li> 
                         <i class="fa-li fab fa-blogger"></i>
-                        <a href="http://io.mysq.to">Blog</a>
+                        <a href="https://io.mysq.to">Blog</a>
                     </li>
                     <li> 
                         <i class="fa-li fab fa-twitter-square"></i>
@@ -48,19 +40,19 @@
                     </li>
                     <li>
                         <i class="fa-li fab fa-lastfm-square"></i>
-                        <a href="http://last.fm/user/mysqto">LastFM</a>
+                        <a href="https://last.fm/user/mysqto">LastFM</a>
                     </li>
                     <li>
                         <i class="fa-li fab fa-instagram"></i>
-                        <a href="http://instagr.am/mysqto">Instagram</a>
+                        <a href="https://instagr.am/mysqto">Instagram</a>
                     </li>
                     <li>
                         <i class="fa-li fab fa-steam-square"></i>
-                        <a href="http://steamcommunity.com/id/mysqto">Steam</a>
+                        <a href="https://steamcommunity.com/id/mysqto">Steam</a>
                     </li>
                     <li> 
                         <i class="fa-li fas fa-external-link-square-alt"></i>
-                        <a href="http://about.me/Mysqto">About.me</a>
+                        <a href="https://about.me/Mysqto">About.me</a>
                     </li>
                     <li> 
                         <i class="fa-li fab fa-telegram"></i>
@@ -70,7 +62,67 @@
                 <h1>Projects</h1>
                 <ul class = "fa-ul">
                     <li>
-                        <i class="fa-li fab fa-github-square"></i>                       
+                        <i class="fa-li fab fa-github-square"></i>
+                        <a href="https://github.com/mysqto/csx">csx</a>
+                        <span class="stack">Rust / SQLite</span>
+                        <figure>
+                            <figcaption>
+                                Code and transcript search over my Claude Code and Codex sessions: BM25 full-text, trigram code-substring and vector retrieval in one embedded SQLite index, scoped by repo, branch, tool and time. Ships a human CLI, a file-watching indexer daemon and an MCP server, so agents query the same index I do.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <i class="fa-li fab fa-github-square"></i>
+                        <a href="https://github.com/mysqto/agent-harness">agent-harness</a>
+                        <span class="stack">Rust</span>
+                        <figure>
+                            <figcaption>
+                                A modular multi-agent orchestrator: a single Agent trait, portable CLI / webhook / chat adapters, and a capability-routing dispatcher that owns normalisation, deduplication, context loading and egress over a shared memory service.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <i class="fa-li fab fa-github-square"></i>
+                        <a href="https://github.com/mysqto/yaam">yaam</a>
+                        <span class="stack">Rust</span>
+                        <figure>
+                            <figcaption>
+                                Memory and knowledge service for AI agents. Markdown with YAML frontmatter is the source of truth, sitting under a rebuildable SQLite FTS index. Per-subject key encryption makes erasure irreversible across every copy, and sealed records open only through an audited unseal.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <i class="fa-li fab fa-github-square"></i>
+                        <a href="https://github.com/mysqto/ccswitch">ccswitch</a>
+                        <span class="stack">Rust</span>
+                        <figure>
+                            <figcaption>
+                                Cross-shell CLI for switching between Claude Code accounts. It snapshots the Keychain OAuth credential and its matching identity as one unit, so token rotation cannot desync them. A single binary, with bash / zsh / fish / PowerShell completions.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <i class="fa-li fab fa-github-square"></i>
+                        <a href="https://github.com/mysqto/openclaw-token-meter">openclaw-token-meter</a>
+                        <span class="stack">TypeScript / SQLite</span>
+                        <figure>
+                            <figcaption>
+                                A plugin that meters LLM token usage per turn into a local SQLite database and estimates cost from a bundled price table, with a CLI to summarise spend by model, agent or session. It records usage metadata only, never prompts or responses.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <i class="fa-li fab fa-github-square"></i>
+                        <a href="https://github.com/mysqto/iTerm2Stats">iTerm2Stats</a>
+                        <span class="stack">Python / macOS</span>
+                        <figure>
+                            <figcaption>
+                                Status-bar components for iTerm2 that replace iStats Menu: CPU, memory, network, disk and temperature sensors, with a one-line installer. Maintained since 2020.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <i class="fa-li fab fa-github-square"></i>
                         <a href="https://github.com/mysqto/mysqto">mysqto</a>
                         <figure>
                             <figcaption>
@@ -78,24 +130,6 @@
                             </figcaption>
                         </figure>
                     </li>
-                    <li>
-                        <i class="fa-li fab fa-github-square"></i>                       
-                        <a href="https://github.com/mysqto/enigma">enigma</a>
-                        <figure>
-                            <figcaption>
-                                A lightweight and simple speech / speaker recognition engine using Dynamic Timing Wrap.
-                            </figcaption>
-                        </figure> 
-                    </li>
-                    <!--li> 
-                        <i class="fa-li fa fa-github-square"></i>
-                        <a href="https://github.com/mysqto/md2pdf">md2pdf</a>
-                        <figure>
-                            <figcaption>
-                                A out-of-the-box tool for rendering markdown to pdf using <a href="http://wkhtmltopdf.org">wkhtmltopdf</a>, currently under development.
-                            </figcaption> 
-                        </figure>
-                    </li-->
                 </ul>
             </div>
         </div>
